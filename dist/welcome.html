@@ -1,0 +1,14 @@
+<template>
+  <require from="./my-element"></require>
+  <section class="au-animate">
+
+    <ul>
+      <li repeat.for="item of items">
+        <my-element></my-element>
+      </li>
+    </ul>
+
+    <button click.delegate="submit()">Click</button>
+
+  </section>
+</template>
